@@ -7,6 +7,6 @@
 ## Check to see if there are build args
 ## First Argument is for the -j concurrent build threads - Defaults to -j21 unless
 ## you set it otherwise.  Careful, or it will melt your machine!
-. build/envsetup &&
+. build/envsetup.sh &&
 export BSPEED=21 && 
 brunch aos_jflte-userdebug
